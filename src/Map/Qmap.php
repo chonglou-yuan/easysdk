@@ -70,7 +70,6 @@ class Qmap
             "output"=>$output
         ];
         if($poi_options) $data['poi_options'] = $poi_options;//附加选项
-
         return $this->get(self::geocoder_url.$this->query($data));
     }
 }
