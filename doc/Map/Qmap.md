@@ -1,13 +1,13 @@
-腾讯地图开放平台-服务端API
+# 腾讯地图开放平台-服务端API
 
-####引用
-`use Easysdk\Map\Qmap;`
+#### 引用
+` use Easysdk\Map\Qmap; `
 
-####初始化对象
-`$map = new Qmap("key");`
+#### 初始化对象
+` $map = new Qmap("key"); `
 
-####逆地址解析
-`$result = $map->geocoder("40.004086,116.656657");`
+#### 逆地址解析
+` $result = $map->geocoder("40.004086,116.656657"); `
 
 请求参数：
 
