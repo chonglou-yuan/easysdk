@@ -18,3 +18,25 @@ $map = new Qmap("key");
 $result = $map->geocoder("40.004086,116.656657");
 ```
 #### 地址解析（地址转换坐标）
+```
+{
+    "name": "yuanchonglou/easysdk",
+    "description": "Integrating common SDKs",
+    "authors": [
+        {
+            "name": "yuanchonglou",
+            "email": "yuanchonglou@cheewo.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Easysdk\\": "src/"
+        }
+    }
+}
+```
