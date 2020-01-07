@@ -9,19 +9,11 @@
 #### 逆地址解析
 ` $result = $map->geocoder("40.004086,116.656657"); `
 
-请求参数：
-
-参数 | 必填 | 说明 | 示例 
-:-: | :-: | :-: | :-:
-aaa | bbb | ccc | ddd
-fff | ggg| hhh | iii
-
-
-返回结果参考：[逆地址解析](https://lbs.qq.com/webservice_v1/guide-gcoder.html)
+请求及返回结果参考：[逆地址解析](https://lbs.qq.com/webservice_v1/guide-gcoder.html)
 
 ```
 use Easysdk\Map\Qmap;
-
-
+$map = new Qmap("key");
+$result = $map->geocoder("40.004086,116.656657");
 
 ```
